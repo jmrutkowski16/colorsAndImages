@@ -17,21 +17,15 @@
   width: 20%;
   margin: .1em;
   color: white;
-  display: inline-block;
 }
 
 #exercise2 a:hover {
-	color: #262F2F;
-	background-color: #F8944E;
 
 }
 </style>
 </head>
-
 <body>
-
 <h1>Review</h1>
-
 <div id="intro" class="instructions">
 First let's review a few concepts from Tuesday's exercises. We used the "display" property to change how our links displayed and create our tabs. The display property changes how the browser renders an element and its content box on the page. Display has many possible values, but the three that matter to us are:
 <ul>
@@ -41,23 +35,17 @@ First let's review a few concepts from Tuesday's exercises. We used the "display
 </ul>
 Perhaps the best way to see what this means is to try each of these values on the divs below. By default, divs are displayed as blocks. Try setting "display:inline" and "display:inline-block" in the .displayTest section of style element above to see how the divs change. 
 </div>
-
 <div id="exercise1" class="exercise">
-
 <div id="blockContainer">
-
 <div class="displayTest">
 Test Div
 </div>
-
 <div class="displayTest">
 Test Div
 </div>
-
 <div class="displayTest">
 Test Div
 </div>
-
 <div class="displayTest">
 Test Div
 </div>
@@ -87,9 +75,7 @@ Test Div
 <div id="instructions2" class="instructions">
 We also used a pseudo-selector on tuesday. Pseudo-selectors allow you to set CSS properties on links, and some other html elements, that are only active when the user performs a certain action. For example, :hover is only active when the user hovers his or her mouse over the link. This is very useful to show the user where active links are on the page, especially when those links are displayed as tabs or other navigation elements. I've created some links below. Add css rules (color, background-color, or anything else you want to try) to the #exercise2 a:hover section above, and then hover your mouse cursor over the links to see what happens!
 </div>
-
 <div id="exercise2" class="exercise">
-
 <a href="notreally.html">Test Link</a>
 <br />
 <a href="notreally.html">Test Link</a>
